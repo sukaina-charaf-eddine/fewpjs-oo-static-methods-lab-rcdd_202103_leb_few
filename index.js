@@ -1,7 +1,7 @@
 class Formatter {
   //add static methods here
   static capitalize(string){
-    return string.charAt(0).toUpperCase()  
+    return string.charAt(0).toUpperCase()
     //+ string.slice( 1 )
   }
   static sanitize(string){
@@ -22,12 +22,8 @@ class Formatter {
           result.push( this.capitalize( arrayOfWords[ n ] ) )
         }
       }
- 
+
     }
     return result.join( " " );
   }
 }
-
-
-
-
